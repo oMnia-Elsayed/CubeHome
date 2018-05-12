@@ -1,0 +1,267 @@
+/* Start Global */
+ *
+ {
+ 	padding: 0;
+ 	margin: 0;	
+ 	box-sizing: border-box;	
+ }
+ .new_color { background-color: #202020; }
+.clear { clear: both; }
+
+/* End Global */ 
+ 
+/* //////////////////////////////////////////////// */
+
+/* Start Header */
+.main 
+{
+	font-family: Segoe Print ;
+	height: 150px;
+	padding: 15px 0;
+}
+.gray 
+{ 
+	height: 125px;
+	padding: 10px;
+	background-color: #2b2b2b; 
+	
+}
+.up_header 
+{ 
+	color: #919191; 
+	padding-left: 600px;
+	font-size: 12px;
+}
+#cube 
+{ 
+	color: #ffffff; 
+	font-size: 40px; 
+	padding: 0 70px;
+}
+
+#add_info 
+{
+	margin-top: -12px;
+	color: #919191;
+	font-size: 14px;
+	padding: 0 70px;
+}
+.search_box 
+{
+	width: 350px;
+	height: 100px;
+	background-color: #212121;
+	margin: -130px 150px 0 0;
+	float: right;
+	border-radius: 10px;
+	font-family: Arial ;
+	padding: 23px 0 0 0;
+}
+.search_box > section { display: flex; }
+.subscribe 
+{ 
+	margin-left: 5px;
+	color: #919191; 
+	font-size: 10px;
+	font-family: Segoe Print ;
+}
+.search
+{
+	width: 300px;
+	height: 30px;
+	background-color: #111111;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 5px;
+	line-height: 10px;
+	color: #919191; 
+	font-family: Segoe Print ;
+	font-size: 13px;
+}
+.search_icon { float: right; height: 20px; padding: 0 10px 5px 10px}
+
+/* End Header */ 
+
+/* //////////////////////////////////////////////// */
+
+/* Start Navigation bar */ 
+nav{ background-color: #2b2b2b; }
+ul {
+    overflow: hidden;
+    margin: 0px 45px;
+    font-family: Arial ;
+    font-weight: bold;
+}
+li  
+{
+	float: left;
+    display: block;
+    color: #919191;
+    text-align: center;
+    padding: 14px 25px;
+    font-size: 15px
+}
+li:hover { background-color: #111111; }
+/* //////////////////////////////////////////////// */
+
+/* Start Application Section */ 
+.new_color2 { background-color: #2b2b2b; padding: 2px;}
+.container
+{
+	background-color: #222222;
+	width: 250px;
+	height: 300px;
+	border-radius: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	display: inline-block;
+}
+.container:hover { background-color: #919180; }
+.left { margin:  30px 20px 30px 60px; }
+.word_photo
+{
+	background-color: #1c1c1c;
+	width: 230px;
+	height: 230px;
+	margin: 17px 10px;
+	font-family: Arial ;
+}
+.word
+{
+	background-color: #111111;
+	width: 230px;
+	height: 40px;
+	color: #717171;
+}
+.f_left { display: inline-block; margin: 10px;}
+.f_right { float: right; margin: 10px;}
+.message
+{
+	height: 20px;
+	margin-left: 25px;
+}
+.movie_photo
+{
+	height: 135px;
+	padding: 10px;
+	margin: 25px 25px 15px 40px;
+}
+
+.star_rating 
+{
+  color: #717171;
+  margin: 0px 10px 20px 20px;
+  font-family: Arial ;
+}
+
+.checked { color: yellow; }
+.comment { float: right; margin: 5px 5px 5px 18px; }
+
+/* End Application Section */ 
+
+/* //////////////////////////////////////////////// */
+
+/* Start Tha Page Section */
+
+.pages 
+{
+	background-color: #242424;
+	border-radius: 8px;
+	margin: 10px 35px 10px 55px;
+	color: #757575;
+	font-family: Arial ;
+	height: 50px;
+	display: flex;
+	flex-wrap: nowrap;
+}
+.page_num
+{
+	margin: 0px 590px 0px 10px;
+	line-height: 50px;
+	text-align: center;
+}
+.num 
+{
+	display: flex;
+	flex-wrap: nowrap;
+}
+.num > div 
+{
+	width: 30px; 
+	line-height: 30px;
+	text-align: center;
+	margin: 10px 8px;
+}
+.one {  background-color: #0b0b0b; }
+.two {  background-color: #1c1c1c; }
+/* End Tha Page Section */
+
+/* //////////////////////////////////////////////// */
+
+/* Start About Us Section */
+
+.more_info 
+{
+	background-color: #121212;
+	font-family: Arial;
+	height: 250px;
+	display: flex;
+}
+.about_us 
+{
+	padding: 40px 20px ;
+	margin: 0px 30px 20px 60px;
+
+}
+#about { color: #c2c2c2; font-size: 25px;}
+#info 
+{ 
+	margin: 20px 0px 0px 0px ; 
+	color: #414141;
+	line-height: 3px;
+}
+.social_app
+{
+	width: 30px;
+	height: 30px;
+	margin: 20px 5px 0px 5px;
+	border-radius: 3px;
+}
+.social_app2
+{
+	width: 30px;
+	height: 30px;
+	margin: 15px 5px 0px 5px;
+	border-radius: 3px;
+}
+.twitter
+{
+	width: 260px;
+	height: 130px;
+	background-color: #1e1e1e;
+	border-radius: 10px;
+	margin: 20px 0px;
+	padding: 25px;
+	font-family: Arial;
+	color: #464646;
+}
+.twitter > div { line-height: 60px; }
+span { color: #9c9c9c; }
+/* End About Us Section */
+
+
+/* //////////////////////////////////////////////// */
+
+/* Start Footer */ 
+
+footer 
+{
+	background-color: #000000;
+	color: #505050;
+	padding: 20px;
+	height: 40px;
+	font-family: Arial;
+}
+.foot_left { float: left; margin: 0px 50px;}
+.foot_right { float: right; margin: 0px 60px; }
+/* End Footer */ 
