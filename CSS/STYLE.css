@@ -58,6 +58,13 @@
 	padding: 23px 0 0 0;
 }
 .search_box > section { display: flex; }
+.wifi 
+{
+	height: 15px;
+	margin-top: 2px;
+	margin-left: 20px;
+	margin-right: 5px;
+}
 .subscribe 
 { 
 	margin-left: 5px;
@@ -78,7 +85,7 @@
 	font-family: Segoe Print ;
 	font-size: 13px;
 }
-.search_icon { float: right; height: 20px; padding: 0 10px 5px 10px}
+.search_icon { float: right; height: 30px; margin: -10px 0px 75px 0px}
 
 /* End Header */ 
 
@@ -113,7 +120,6 @@ li:hover { background-color: #111111; }
 	height: 300px;
 	border-radius: 15px;
 	display: flex;
-	flex-wrap: wrap;
 	display: inline-block;
 }
 .container:hover { background-color: #919180; }
@@ -133,13 +139,23 @@ li:hover { background-color: #111111; }
 	height: 40px;
 	color: #717171;
 }
-.f_left { display: inline-block; margin: 10px;}
-.f_right { float: right; margin: 10px;}
-.message
-{
-	height: 20px;
-	margin-left: 25px;
-}
+.f_left { float: left; margin: 10px;}
+.f_right { float: right; margin: 10px 10px 10px 0;}
+.word .message { margin-top: 11px; height: 18px;}
+
+.m1 { margin-left: 50px; }
+.m2 { margin-left: 77px; }
+.m3 { margin-left: 77px; }
+.m4 { margin-left: 87px; }
+.m5 { margin-left: 83px; }
+.m6 { margin-left: 65px; }
+.m7 { margin-left: 50px; }
+.m8 { margin-left: 65px; }
+.m9 { margin-left: 95px; }
+.m10{ margin-left: 65px; }
+.m11{ margin-left: 90px; }
+.m12{ margin-left: 64px; }
+
 .movie_photo
 {
 	height: 135px;
@@ -149,9 +165,9 @@ li:hover { background-color: #111111; }
 
 .star_rating 
 {
-  color: #717171;
-  margin: 0px 10px 20px 20px;
-  font-family: Arial ;
+	color: #717171;
+  	margin: 0px 10px 20px 20px;
+  	font-family: Arial ;
 }
 
 .checked { color: yellow; }
@@ -259,9 +275,29 @@ footer
 	background-color: #000000;
 	color: #505050;
 	padding: 20px;
-	height: 40px;
+	height: 60px;
 	font-family: Arial;
 }
-.foot_left { float: left; margin: 0px 50px;}
+.foot_left { float: left; margin: 0px 50px 20px ;}
 .foot_right { float: right; margin: 0px 60px; }
 /* End Footer */ 
+
+/* hover section */
+#cube:hover , #add_info:hover , .subscribe:hover , .up_header:hover , #info:hover , #about:hover , .foot_left:hover , .foot_right:hover
+{ text-shadow: 0.5px 0.5px; }
+
+.search:hover
+{ 
+	-ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+	transform: scale(1.1);  
+}
+
+.one:hover , .two:hover , .social_app:hover , .social_app2:hover
+{
+	-ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+	transform: scale(1.3);
+}
+
+/* /////////////////////////// */
